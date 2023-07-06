@@ -51,12 +51,19 @@ var swiper = new Swiper(".roadMapSlider", {
       autoplay: {
     delay: 2000, 
   },
+ 
       breakpoints: {
           768: {
             slidesPerView: 3,
             spaceBetween: 10,
           },
+          800: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          
         },
+
 
       pagination: {
         el: ".swiper-pagination",
