@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 /*--------------------- Copyright (c) 2022 ----------------------- 
 [Master Stylesheet] 
 Project: CryptoCurrency
@@ -5,6 +7,24 @@ Project: CryptoCurrency
 /********************************************************
 1. body start
  *******************************************************/
+
+ @font-face {
+    font-family: 'Migra';
+    src: url('./fonts/Migra-Extrabold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Migra';
+    src: url('./fonts/Migra-Extralight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+  
 :root {
     --cc-main-color: #7CFB62;
     --cc-white-color: #ffffff;
@@ -18,10 +38,11 @@ Project: CryptoCurrency
     --cc-border-color: #172948;
     --green: #7CFB62;
 }
+
 *{
     margin:0px;
+    font-family: 'Lato', sans-serif;
     padding:0px;
-    font-family: 'Mont', sans-serif;
 }
 input[type="text"]::placeholder , input[type="email"]::placeholder{
     color: var(--cc-light-grey-color);
@@ -339,6 +360,7 @@ ul.breadcrumb li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 .cc-convert-content {
     width: 45%;
@@ -346,6 +368,7 @@ ul.breadcrumb li {
 .cc-convert-img {
     width: 45%;
     display: block;
+    margin-right: -50px;
 }
 .cc-convert-con h2 {
     font-size: 32px;
@@ -852,7 +875,7 @@ text-align: center;
     text-align: right;
 }
 .cc-nls-con {
-    width: 85%;
+    width: 100%;
 }
 .cc-nls-con h3 {
     font-weight: 600;
@@ -1786,6 +1809,9 @@ margin-bottom: 15px;
 .cc-nls-img {
     position: relative;
 }
+.cc-nls-img >img {
+    margin-left: -50px;
+}
 .cc-nls-img:before {
     content: "";
     background: url(../images/beem.png) no-repeat;
@@ -1907,4 +1933,42 @@ margin-bottom: 15px;
     margin-left: 10px;
     fill: #7CFB62;
     filter: invert(1100%); /* Change the color of the SVG */
+  }
+
+  .cc-ban-title h2{
+    font-family: "Migra";
+    font-weight: bold;
+
+}
+.migra {
+    font-family: "Migra";
+    font-weight: bold;
+
+}
+.cc-ban-title span{
+    font-family: "Migra";
+    font-weight: bold;
+
+}
+.title {
+    font-family: "Migra";
+    font-weight: bold;
+
+}
+.social-list {
+    padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 15px;
+      flex-wrap: wrap;
+  }
+  .social-list li a img {
+    width: 30px;
+    filter: invert(1);
+  }
+  .roadMapSlider .glass-box {
+    height: 250px;
   }

@@ -44,21 +44,25 @@ var swiper = new Swiper(".workSlider", {
 
 
 var swiper = new Swiper(".roadMapSlider", {
-    slidesPerView: 1,
+    slidesPerView: 3,
       spaceBetween: 30,
       centeredSlides: true,
       loop: true,
       autoplay: {
     delay: 2000, 
   },
- 
       breakpoints: {
           768: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 10,
           },
           800: {
             slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          
+          1400: {
+            slidesPerView: 3,
             spaceBetween: 10,
           },
           
