@@ -156,12 +156,13 @@ input[type="text"]::placeholder , input[type="email"]::placeholder{
 }
 .cc-sign-btn a {
     display: inline-block;
-    color: #000000;
-    background-color: #7CFB62;
-    padding: 12px 32px;
-    font-size: 14px;
+    color: #7CFB62;
+    background-color: #222;
+    padding: 7px 19px;
+    font-size: 16px;
     border-radius: 5px;
     font-weight: 700;
+    border-radius: 50px;
     letter-spacing: 2px;
     text-decoration: none;
 }
@@ -267,12 +268,13 @@ ul.breadcrumb li {
     display: inline-block;
     color: #000000;
     background-color: #7CFB62;
-    padding: 20px 38px;
+    padding: 15px 25px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-weight: 600;
     margin-top: 15px;
+    border-radius: 40px;
 }
 .por {
     position: relative;
@@ -763,7 +765,6 @@ text-align: center;
 
 /*---Testimonals---*/
 .cc-testimonal {
-    padding: 90px 0 100px;
     background-color: #222222;
 }
 
@@ -1588,6 +1589,24 @@ display: block;
     top: -85px;
     z-index: 1;
 }
+
+.bottom-fade {
+    position: relative;
+    overflow-x: clip;
+}
+
+.bottom-fade:before {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 150px;
+    left: -50px;
+    background: #222222;
+    filter: blur(25px);
+    bottom: -80px;
+    z-index: 1;
+}
+
 .fade-white.top-fade:before {
     background: #fff !important;
 }
@@ -1971,4 +1990,7 @@ margin-bottom: 15px;
   }
   .roadMapSlider .glass-box {
     height: 250px;
+  }
+  .video-sec video {
+    width: 100%;
   }
