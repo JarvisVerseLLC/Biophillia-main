@@ -1987,6 +1987,10 @@ margin-bottom: 15px;
   .social-list li a img {
     width: 30px;
     filter: invert(1);
+    transition: all .3s;
+  }
+  .social-list li a img:hover {
+    transform: scale(1.4);
   }
   .roadMapSlider .glass-box {
     height: 250px;
