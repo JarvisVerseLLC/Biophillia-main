@@ -433,6 +433,13 @@
         bottom: 0;
 }
 
+.bottom-fade:before {
+  
+    width: 120%;
+    left: -20px;
+  
+}
+
     .test-con img {
         align-items: center;
         width: 237px;
