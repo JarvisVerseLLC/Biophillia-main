@@ -316,7 +316,7 @@ ul.breadcrumb li {
    width: 245px;
     text-align: center;
     position: relative;
-    padding: 5px;
+    padding: 05px;
     border-radius: 14px;
     margin: 15px auto;
     position: inherit;
@@ -1829,7 +1829,7 @@ margin-bottom: 15px;
     position: relative;
 }
 .cc-nls-img >img {
-    margin-left: -50px;
+    margin-left: 0px;
 }
 .cc-nls-img:before {
     content: "";
