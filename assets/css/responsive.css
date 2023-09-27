@@ -686,6 +686,9 @@
     .cc-convert-content h2 {
         text-align: center;
     }
+    .cc-convert-content p {
+        text-align: center;
+    }
     .cc-currency-con {
         display: block;
         text-align: center;
